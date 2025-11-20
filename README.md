@@ -34,5 +34,15 @@ PDE-Transformer introduces a continuous dynamical systems approach to sequence m
 
 ## Authors
 
-- **Yukun Zhang** - The Chinese University of Hong Kong
-- **Xueqing Zhou** - Fudan University
+- **Yukun Zhang**<sup>*</sup> - The Chinese University of Hong Kong
+- **Xueqing Zhou**<sup>*</sup> - Fudan University
+
+<sup>*</sup>Equal contribution
+
+## License
+
+This project is licensed under the terms specified in the repository.
+
+## Acknowledgments
+
+This template was borrowed from [Academic Project Page Template](https://github.com/eliahuhorwitz/Academic-project-page-template) which was adopted from the [Nerfies](https://nerfies.github.io) project page under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
