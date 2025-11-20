@@ -174,8 +174,58 @@
     </div>
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
-       <!-- Add result images here -->
+       <div class="item">
+        <!-- Your image here -->
+        <img src="assets/images/homonym_explain.png" alt="Homonyms Explanation"/>
+        <h2 class="subtitle has-text-centered">
+          Homonyms. We see that the word "baseball" provides the required synergistic context with the homonym "bat" to pick the 
+          sports setting over the animal. This effect can be confirmed in the synergy maps and image-level synergy values (S) as 
+          well where we observe a high synergy for "bat" with "baseball" compared to other words such as "He" and "swung".
+        </h2>
       </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="assets/images/homonym_result.png" alt="Homonyms Result"/>
+        <h2 class="subtitle has-text-centered">
+          Homonyms. Left: Successful generation of homonym "bowl" in different contexts due to high synergy with modifiers "bowl" 
+          and "game". Right: Failure case where the model generates the homonym "mole" with the same semantic meaning, the animal, 
+          due to its failure to use contextual information from words like "coworker" as can be seen in the synergy map.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="assets/images/synonym_result.png" alt="Synonyms Results"/>
+        <h2 class="subtitle has-text-centered">
+          Synonyms. Our redundancy map is able to highlight that the model considers the pairs "bed" and "mattress" (left) and "cube" 
+          and "cuboid" (right) as semantically similar
+       </h2>
+     </div>
+     <div class="item">
+      <!-- Your image here -->
+      <img src="assets/images/hypo_result_coco.png" alt="Co-Hyponyms Results"/>
+      <h2 class="subtitle has-text-centered">
+        COCO Co-Hyponyms. The redundancy map proves to be very useful in finding out the reason behind the model's failures in these figures. 
+        It confuses the co-hyponym pairs ("sandwich", "pizza")(left) and ("elephant", "cat")(right) to have the same meaning for the co-hyponyms 
+        as seen from the redundancy maps, which results in erroneous generations
+      </h2>
+    </div>
+     <div class="item">
+      <!-- Your image here -->
+      <img src="assets/images/p_intervention_r1.png" alt="Prompt Intervention Results"/>
+      <h2 class="subtitle has-text-centered">
+        Prompt Intervention. The redundancy is highly activated in the face region of the giraffe. On a closer look, we see that the face is that 
+        of a cow meaning that the word "cow" is redundant. This is confirmed as the image changes very little on omitting it from the prompt.
+      </h2>
+    </div>
+     <div class="item">
+      <!-- Your image here -->
+      <img src="assets/images/uniqueness_mrf_new.png" alt="Uniqueness Results"/>
+      <h2 class="subtitle has-text-centered">
+        Most Representative Features. Left: The "toothbrush" uniqueness map correctly captures the toothbrush bristles, their most distinct feature. 
+        Right: The "bear" uniqueness map correctly captures the bear region, specifically the face.
+      </h2>
+    </div>
+  </div>
     </div>
   </div>
 </section>
